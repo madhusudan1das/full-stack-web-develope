@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d32f2f;
+    color: #fff8f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+.navbar h1 {
+    font-size: 1.5em;
+}
+
+.navbar nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.intro-text h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.intro-text p {
+    font-size: 1.2em;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.core-offerings, .beyond-business {
+    margin: 20px 0;
+}
+
+.offer-grid, .business-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.offer-card, .business-card {
+    background: #ffffff;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card h3, .business-card {
+    color: #d32f2f;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer form {
+    margin-top: 10px;
+}
+
+footer input[type="email"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+footer button {
+    padding: 8px 12px;
+    background-color: #d32f2f;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-text h2 {
+        font-size: 1.5em;
+    }
+
+    .offer-card, .business-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-text h2 {
+        font-size: 1.2em;
+    }
+}
