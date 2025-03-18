@@ -1,6 +1,6 @@
 function value(x,y){
-    val=x*y;
-    return value;
+    val=(x*y);
+    return val;
 }
-const val=(3,4);
-console.log(val)
+let va=value(3,4);
+console.log(va);
