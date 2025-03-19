@@ -1,4 +1,6 @@
-function name(){
+function nae(){
     console.log("madhusudan das")
 }
 name();
+
+

@@ -1,2 +1,5 @@
-const add = (a, b) => a + b;
-console.log(add(2, 3)); // Output: 5
+const add=(a,b)=>a+b;{
+    const result=add(6,7);
+    console.log(result);
+}
+  
