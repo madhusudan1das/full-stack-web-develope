@@ -1,0 +1,5 @@
+let num=[2,3,7,38746,8947,23,76,3073,836,37873,373,8,900,5,87,100,93,768,900,936,4,45,12,23,45,67,89,90,0,56,5,4,513,24,5,7,87,67,41];
+let newNum=num.reduce((previous,current)=>{
+    return previous>current ? previous : current;
+});
+console.log(newNum);
