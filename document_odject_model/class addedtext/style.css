@@ -1,0 +1,13 @@
+.gita{
+    height: 100px;
+    box-sizing: border-box solid 20px;
+    box-shadow: cyan;
+    background-color: aqua;
+    border: 2px solid blue;
+    width: 200px;
+    margin: 50px;
+    border-radius: 20px;
+    inline-size: auto;
+    text-align: center;
+    text-decoration: double;
+}
