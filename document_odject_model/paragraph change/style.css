@@ -1,0 +1,54 @@
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    min-height: 100vh; /* Full height of the screen */
+    margin: 0;
+}
+
+#para {
+    height: auto;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.2em; /* Scales with screen size */
+}
+
+button {
+    height: 50px;
+    width: 60%;
+    max-width: 200px;
+    margin: 10px;
+    background-color: aqua;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    color: white;
+    background-color: salmon;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #para {
+        font-size: 1em; /* Adjust font size for smaller screens */
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+        font-size: 0.9em;
+    }
+}

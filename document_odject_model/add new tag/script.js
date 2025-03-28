@@ -1,0 +1,1 @@
+document.getElementById("h2").innerHTML=(" <h2>hello js </h2>")
