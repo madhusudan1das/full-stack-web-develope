@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form tag</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+      }
+
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1, h2, h3, h4 {
+        color: #333;
+      }
+
+      div {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      input, select, textarea, button {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 1rem;
+      }
+
+      button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      input[type="checkbox"],
+      input[type="radio"] {
+        width: auto;
+        margin-right: 10px;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+
+      hr {
+        border: 5px solid blue;
+        border-top: 10px solid #ccc;
+        margin: 20px 0;
+      }
+
+      .checkbox-label {
+        display: inline-block;
+      }
+
+      span {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="index.php">
+    <h1>form tags</h1>
+    <form action="index.php"></form>
+    <div>
+      <label for="name">name</label>
+      <input id="name" type="text" placeholder="enter name" />
+    </div>
+    <div>
+      <label for="phone">phone</label>
+      <input id="phone" type="tel" placeholder="enter ph number" />
+    </div>
+    <div>
+      <label for="password">password</label>
+      <input id="password" type="password" placeholder="enter password" />
+    </div>
+    <div>
+      <label for="email">email</label>
+      <input id="email" type="email" placeholder="enter email" />
+    </div>
+    <div>
+      <label for="date">date</label>
+      <input id="date" type="date" placeholder="date" />
+    </div>
+    <div>
+      <label for="time">time</label>
+      <input id="time" type="time" placeholder="time" />
+    </div>
+    <hr />
+
+    <h2>select things</h2>
+    <div>
+      <label for="gender">gender</label>
+      <select name="gender" id="gender" required>
+        <option value="" disabled selected>select gender</option>
+        <option value="male">male</option>
+
+        <option value="male">female</option>
+
+        <option value="male">third</option>
+      </select>
+    </div>
+
+    <hr />
+    <h3>Radio button</h3>
+    <div>
+      <p>subscription plan</p>
+      <label for="basic">basic</label>
+      <input id="basic" type="radio" name="subscription" value="basic" />
+
+      <label for="premium">premium</label>
+      <input id="premium" type="radio" name="subscription" value="premium" />
+
+      <label for="vip">vip</label>
+      <input id="vip" type="radio" name="subscription" value="vip" />
+
+      <h4><sub>under radio button</sub>range</h4>
+      <label for="thinking ">thinking </label>
+      <input
+        id="thinking "
+        type="range"
+        name="subscription"
+        value="thinking "
+      />
+    </div>
+    <hr>
+    <h1>chedck box</h1>
+    <div>
+        <input type="checkbox" required>
+        <label id="checkbox" for="checkbox">i agree term and condition </label>
+    </div>
+    <hr>
+    <h1>TEXT AREA</h1>
+    <div>
+        <label for="comment">comment</label>
+        <textarea name="comment" id="comment" placeholder="enter text" rows="4"></textarea>
+    </div>
+
+    <span>
+        <button  type="submit">submit</button>
+    </span>
+</form>
+  </body>
+</html>
