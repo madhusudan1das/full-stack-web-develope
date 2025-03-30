@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    color: aqua;
+}
+#container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.new-element {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+
+}
+button{
+    cursor: pointer;
+}
+#newElement{
+    cursor: pointer;
+}
