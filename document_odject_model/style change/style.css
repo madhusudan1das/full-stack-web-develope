@@ -30,4 +30,10 @@ border-radius: 10px;
 cursor: pointer;
 
 }
+img{
+    height: 15px;
+}
 
+tt{
+    color: #000000;
+}
