@@ -13,7 +13,6 @@ document.getElementById("body").prepend(newHeading);
 
 
 
-
 function appendElement() {
     let newElement = document.createElement("div");
     newElement.className = "new-element";
