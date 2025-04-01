@@ -1,0 +1,39 @@
+
+body{
+    background-color: antiquewhite;
+    display: flexbox;
+}
+#h1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: aqua;
+}
+#para{
+    color: rgb(0, 188, 126);
+    text-decoration: underline;
+}
+#div{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    color: antiquewhite;
+    margin-left: 90vh;
+}
+span{
+height: 100px;
+background-color: aqua;
+color: rgb(0, 10, 10);
+border: solid black;
+border-radius: 10px;
+cursor: pointer;
+
+}
+img{
+    height: 15px;
+}
+
+tt{
+    color: #000000;
+}
