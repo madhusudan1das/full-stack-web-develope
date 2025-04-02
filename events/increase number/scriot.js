@@ -7,8 +7,15 @@ btn.onclick=()=>{
     alert("clicked");
 }
 
-let div=document.getElementById("div1");
-div.onmouseover=()=>{
-    console.log("you are inside div");
+// let div=document.getElementById("div1");
+// div.onmouseover=()=>{
+//     console.log("you are inside div");
     
+// }
+document.getElementById("div1").onmouseover=function(evt){
+    console.log("clicked");
+    console.log(evt.type);
+    console.log(evt.target)
+    console.log(evt.timeStamp)
+    alert("helloo")
 }
