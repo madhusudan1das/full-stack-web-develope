@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(158, 89, 0);
+}
+h1{
+    text-align: center;
+}
+#div1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin:5% 40%;
+}
