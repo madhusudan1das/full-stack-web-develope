@@ -4,4 +4,5 @@ if(age>=18){
 }else{
     console.log("not");
 }
-console.log(typeof age)
+console.log(parseInt(age));
+console.log(typeof age);
