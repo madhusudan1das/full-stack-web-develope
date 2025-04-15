@@ -1,4 +1,4 @@
 let varName = "madhusudan";
-for (let char of varName) {
-    console.log(char);
+for (let key of varName) {
+    console.log(key);
 }

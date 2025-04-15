@@ -1,1 +1,4 @@
-student_Id["isPass"]=student_Id["isPass"]+false;
+t str="madhssusudan";
+// for( let i of str){
+//     console.log("i=",i)
+// }
