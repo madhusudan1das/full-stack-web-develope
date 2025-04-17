@@ -24,7 +24,7 @@ let num = 0;
 while (num !== number) {
     num = parseInt(readlineSync.question("Guess the number (1-100): "));
 
-    if (num < number) {
+    if (num < number) { 
         console.log("Too low, guess higher!");
     } else if (num > number) {
         console.log("Too high, guess lower!");
