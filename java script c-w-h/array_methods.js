@@ -72,3 +72,11 @@ let str = arr.toString(); // "40,0,0,10"
 
 // 23. join() → Join with custom separator
 let joined = arr.join(" - "); // "40 - 0 - 0 - 10"
+
+
+let arr1 = [1, 2, 3, 4];
+arr1.splice(2, 1);  // Remove 1 element at index 2
+console.log(arr1); // [1, 2, 4]
+let arr2 = [1, 2, 3, 4];
+delete arr2[2];
+console.log(arr2); // [1, 2, undefined, 4]
