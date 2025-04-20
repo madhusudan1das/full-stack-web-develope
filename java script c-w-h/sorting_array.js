@@ -15,7 +15,7 @@
 
 // let array =[3,32,2,12,32,12,1,7,5];
 // array.reverse();
-// console.log(array);    // reverse print the value
+// console.log(array);                     // reverse print the value
 
 
 //splice  and slice
@@ -25,6 +25,13 @@
 
 
 
-let array=[2,3,4,32,12,13,43,31];
-let deleteValue=array.splice(0,1,222,33,44,545,333,234);    // it print which value is delete
-console.log(deleteValue);
+// let array=[2,3,4,32,12,13,43,31];
+// let deleteValue=array.splice(0,1,222,33,44,545,333,234);    // it print which value is delete
+// console.log(deleteValue);
+
+
+
+//slice
+let array=[0,1,2,3,4,5,6,7,8,9,10];
+let newArray=array.slice(3); //slice remove the first 3 element
+console.log(newArray);
