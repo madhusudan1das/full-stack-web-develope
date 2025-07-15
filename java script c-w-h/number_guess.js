@@ -30,5 +30,4 @@ while (num !== number) {
         console.log("Too high, guess lower!");
     } else {
         console.log("You guessed it!");
-    }
-}
+    }}
