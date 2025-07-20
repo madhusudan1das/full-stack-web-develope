@@ -5,4 +5,4 @@ if(mode==="dark"){
 }else{
     color="white";
 }
-console.log(color)
+console.log(mode)
