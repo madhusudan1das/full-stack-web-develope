@@ -6,5 +6,5 @@ if(num%3==0|| num%5==0){
     console.log("5 and 3");
 }
 else{
-    console.log("not");
+    console.log("no");
 }
