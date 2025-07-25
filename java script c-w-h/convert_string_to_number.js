@@ -1,3 +1,3 @@
-let a="89";
-let b=(parseInt(a));
+let c="89";
+let b=(parseInt(c));
 console.log(typeof b);
