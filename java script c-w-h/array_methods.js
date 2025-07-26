@@ -79,4 +79,4 @@ arr1.splice(2, 1);  // Remove 1 element at index 2
 console.log(arr1); // [1, 2, 4]
 let arr2 = [1, 2, 3, 4];
 delete arr2[2];
-console.log(arr2); // [1, 2, undefined, 4]
+console.log(arr2); // [1, 2, undefined,4]
