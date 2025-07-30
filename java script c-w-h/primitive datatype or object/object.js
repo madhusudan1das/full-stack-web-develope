@@ -1,15 +1,15 @@
-// let person = {
-//   name: "Madhusudan",
-//   age: 21,
-//   birthDate: "15/02/2004",
-//   isStudent: true,
-//   gret: function () {
-//     console.log("Hello, my name is " + this.name);
-//   }
-// };
-
-// console.log(person);
-// person.gret();                                // simple object crerate
+let person = {
+  name: "Madhusudan",
+  age: 21,
+  birthDate: "15/02/2004",
+  isStudent: true,
+  gret: function () {
+    console.log("Hello, my name is " + this.name);
+  }
+};
+console.log(person["name"])
+console.log(person);
+person.gret();                                // simple object crerate
 
 
 
@@ -28,18 +28,18 @@
 
 
 
-class Animal {
-  constructor(name) {
-    this.name = name;
-  }
+// class Animal {
+//   constructor(name) {
+//     this.name = name;
+//   }
 
-  speak() {
-    console.log(this.name + " makes a sound.");
-  }                                                 // object using class
-}
+//   speak() {
+//     console.log(this.name + " makes a sound.");
+//   }                                                 // object using class
+// }
 
-let dog = new Animal("Dog");
-dog.speak();
+// let dog = new Animal("Dog");
+// dog.speak();
 
 
 
