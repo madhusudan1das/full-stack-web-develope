@@ -7,6 +7,7 @@ let person = {
     console.log("Hello, my name is " + this.name);
   }
 };
+person["name"]="sanu";//update in object
 console.log(person["name"])
 console.log(person);
 person.gret();                                // simple object crerate
