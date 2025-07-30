@@ -14,14 +14,32 @@
 
 
 
-let car = new Object();
-car.brand = "Toyota";
-car.model = "Camry";
-car.year = 2022;
-car.best_company= function (){
-    console.log("the car company name is"+ this.brand);
+// let car = new Object();
+// car.brand = "Toyota";
+// car.model = "Camry";
+// car.year = 2022;
+// car.best_company= function (){
+//     console.log("the car company name is"+ this.brand);
     
+// }
+// car.best_company();
+
+
+
+
+
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(this.name + " makes a sound.");
+  }                                                 // object using class
 }
-car.best_company();
+
+let dog = new Animal("Dog");
+dog.speak();
+
 
 
