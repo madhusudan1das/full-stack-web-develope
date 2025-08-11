@@ -4,4 +4,4 @@ do{i++;
     console.log(i);
     
     
-}while(i<=50);
+}while(i<=150);
