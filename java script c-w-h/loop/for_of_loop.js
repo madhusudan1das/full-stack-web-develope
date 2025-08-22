@@ -1,7 +1,7 @@
 let student={
     name:"madhusudan",
     age:21,
-    class:"10th",
+    class:"12th",
 }
 for(let a of "student"){
     console.log(a);
