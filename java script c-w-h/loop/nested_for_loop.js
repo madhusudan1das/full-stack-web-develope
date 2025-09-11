@@ -7,7 +7,7 @@
 // let number = prompt("Enter a number: ");
 // number = Number(number); // Convert to number
 
-// mult(number); //Call the function
+// mult(number); /Call the function
 
 
 
