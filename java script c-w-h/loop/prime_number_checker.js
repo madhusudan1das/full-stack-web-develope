@@ -12,7 +12,7 @@ for (let i = 2; i <= number; i++) {
     }
 
     if (isPrime) {
-        console.log(i + " is prime");
+        console.log(i + " is prime ");
     } else {
         console.log(i + " is not prime");
     }
